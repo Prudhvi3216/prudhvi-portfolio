@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prudhvi Raju Mallavarapu | Fullstack Web Developer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./script.js" defer></script>
+    <style>
+      .hero-font-size {
+        line-height: 1;
+        font-weight: bolder;
+      }
+    </style>
+  </head>
+  <body class="bg-white">
+    <div class="container max-w-7xl mx-auto my-4 px-4">
+      <!-- Header section start -->
+      <header>
+        <nav class="my-4 flex flex-row place-items-center justify-between">
+          <ul class="flex flex-row justify-start gap-4 md:gap-8">
+            <li>
+              <a href="#work-exp"> Work Experience </a>
+            </li>
+          </ul>
+          <ul class="flex flex-row justify-end gap-8 place-items-center">
+            <li>
+              <button
+                class="block text-center bg-blue-500 text-white font-bold px-2 py-2 rounded-xl"
+                onclick="downloadPDF()"
+              >
+                Download CV
+              </button>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <!-- Header section end -->
+      <!-- Hero section start -->
+      <section
+        class="rounded-2xl flex flex-col gap-4 items-center justify-center"
+      >
+        <div class="flex flex-col py-8 gap-6 items-center">
+          <img
+            src="./assets/profile.jpeg"
+            class="rounded-full"
+            width="200px"
+            height="200px"
+            alt="Prudhvi Raju Mallavarapu"
+          />
+          <p class="text-3xl lg:text-4xl italic">Hi there, I'm</p>
+          <h1 class="hero-font-size text-center text-5xl lg:text-6xl">
+            <span class="text-blue-500">Prudhvi Raju</span>&nbsp;
+            <span class="text-gray-800">Mallavarapu</span>
+          </h1>
+          <p class="text-gray-500 lg:text-lg text-center w-full lg:w-3/4">
+            I'm a self-motivated learner with a passion for code, dedicated to
+            crafting innovative web solutions as a full-stack developer. Seeking
+            a challenging and rewarding position in the field of web
+            development, where I can apply my strong programming skills,
+            creativity, and passion for innovation to contribute to dynamic
+            projects, enhance user experiences, and continuously grow as a
+            professional in a collaborative and forward-thinking team.
+          </p>
+          <div>
+            <button
+              class="block text-center bg-blue-500 text-white font-bold px-4 py-2 lg:px-6 lg:py-4 text-xl rounded-xl"
+            >
+              Contact Now
+            </button>
+          </div>
+        </div>
+
+        <!-- <div class="">
+          <img
+            src="./assets/avatar.png"
+            alt=""
+            width="500px"
+            height="auto"
+            class="absolute top-20 right-96"
+          />
+        </div> -->
+      </section>
+      <!-- Hero section end -->
+
+      <!-- Work Experience Start -->
+      <section
+        class="flex flex-col gap-8 mx-auto w-full lg:w-2/3 my-10"
+        id="work-exp"
+      >
+        <p class="text-3xl lg:text-4xl text-center">Work Experience</p>
+        <hr />
+        <div class="flex flex-col gap-1 my-4">
+          <p class="text-sm">
+            1<sup>st</sup> June 2022 - Till Now (1 Year 7 Months)
+          </p>
+          <p class="font-bold text-xl">Freelance Full-stack Web Developer</p>
+          <p class="italic text-gray-500">
+            My programming journey began in 2014 when I joined as a web
+            development member for my university department website. Since then,
+            I've maintained a strong curiosity for programming, continuously
+            honing my skills and exploring various web technologies.
+          </p>
+          <ol
+            class="list-inside list-decimal text-gray-500 flex flex-col gap-2 my-2 w-full lg:w-3/4"
+          >
+            <li>
+              <u class="text-gray-900"
+                >Web Development for Skyland Immigration and Careers</u
+              >
+              <ul class="list-inside list-disc flex flex-col gap-2 my-2">
+                <li>
+                  Developed the Laravel-based website for Skyland Immigration
+                  and Careers (
+                  <a
+                    href="https://www.skylandimmigration.com"
+                    class="text-blue-500"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >www.skylandimmigration.com</a
+                  >)
+                </li>
+                <li>
+                  Created a customized CRM application API using PHP Laravel to
+                  streamline operations.
+                </li>
+                <li>
+                  Developed both user and employee dashboards from scratch (<a
+                    href="https://crm.skylandimmigration.com"
+                    class="text-blue-500"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >https://crm.skylandimmigration.com</a
+                  >
+                  and
+                  <a
+                    href="https://dashboard.skylandimmigration.com"
+                    class="text-blue-500"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >https://dashboard.skylandimmigration.com</a
+                  >) using React.js and Tailwind CSS, integrated with the CRM
+                  API.
+                </li>
+              </ul>
+            </li>
+            <li>
+              <u class="text-gray-900"
+                >Development of EarnX - A Web3-Based Platform</u
+              >
+              <ul class="list-inside list-disc flex flex-col gap-2 my-2">
+                <li>
+                  Contributed to the development of a Laravel API and Next.js
+                  web application for the EarnX platform (<a
+                    href="https://earnxj.vercel.app"
+                    class="text-blue-500"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >https://earnxj.vercel.app</a
+                  >
+                  ), a Web3-based video sharing and cryptocurrency earning
+                  platform.
+                </li>
+              </ul>
+            </li>
+            <li>
+              <u class="text-gray-900">
+                UI Redesign for WaveMaker Sale - DeFi Launchpad Platform
+              </u>
+              <ul class="list-inside list-disc flex flex-col gap-2 my-2">
+                <li>
+                  Led a UI redesign project using Next.js and Tailwind CSS for
+                  https://www.wavemaker.sale, a DeFi launchpad platform,
+                  enhancing user experience and visual appeal.
+                </li>
+              </ul>
+            </li>
+            <li>
+              <u class="text-gray-900">
+                Influence-Xpert - Brands and Influencers Collaboration Platform
+              </u>
+              <ul class="list-inside list-disc flex flex-col gap-2 my-2">
+                <li>
+                  Developed a web application UI for a client that facilitates
+                  collaboration between brands and influencers using React.js
+                  and Tailwind CSS (<a
+                    href="https://influence-xpert.vercel.app"
+                    class="text-blue-500"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >https://influence-xpert.vercel.app</a
+                  >
+                  ).
+                </li>
+              </ul>
+            </li>
+          </ol>
+        </div>
+
+        <div class="flex flex-col gap-1 my-4">
+          <p class="text-sm">
+            10<sup>th</sup> Oct 2019 - 31<sup>st</sup> MAY 2022 (2 Years 8
+            Months)
+          </p>
+          <p class="font-bold text-xl">
+            Dept. of Revenue - Govt. of Andhra Pradesh
+          </p>
+          <p>
+            <span class="text-gray-500">Position:</span> Ward Revenue Secretary
+            (VRO)
+          </p>
+          <p class="w-full">
+            <span class="text-gray-500"
+              >Nature of Work: Managing land records, revenue collection, and
+              government certificate issuance as a Village Revenue Officer while
+              assisting with election processes, implementing government
+              schemes, and maintaining public engagement.
+            </span>
+          </p>
+        </div>
+
+        <div class="flex flex-col gap-1 my-4">
+          <p class="text-sm">
+            26<sup>th</sup> Oct 2015 - 30<sup>th</sup> Sept 2019 (4 Years)
+          </p>
+          <p class="font-bold text-xl">T & AS Designtech Services Pvt. Ltd.</p>
+          <p>
+            <span class="text-gray-500">Position:</span> Senior Engineer
+            (Operations)
+          </p>
+          <p>
+            <span class="text-gray-500">Nature of Work:</span> Order Processing
+            & Order Management
+          </p>
+          <ul
+            class="list-inside list-disc text-gray-500 w-full lg:w-3/4 flex flex-col gap-2 my-2"
+          >
+            <li>
+              Played a pivotal role as a Senior Engineer (Operations) within T
+              and AS Designtech Services Company, specifically assigned to the
+              ASSAABLOY's CURRIES project, a leading manufacturer of hollow
+              metal doors and frames.
+            </li>
+            <li>
+              Led a team of 6 members, overseeing day-to-day operations and
+              ensuring the efficient production of high-quality hollow metal
+              doors and frames.
+            </li>
+            <li>
+              Conducted quality checks and proactively addressed processing
+              errors to maintain product excellence.
+            </li>
+            <li>
+              Provided training and guidance to junior team members, fostering
+              their professional development and resolving project-related
+              inquiries.
+            </li>
+            <li>
+              Acted as a key point of contact with customers, primarily through
+              email, to obtain additional project information and approvals,
+              thus strengthening client relationships.
+            </li>
+            <li>
+              Collaborated closely with the team to enhance productivity,
+              consistently meeting estimated project ship dates and exceeding
+              customer expectations.
+            </li>
+            <li>
+              Maintained meticulous records of innovative concepts and managed
+              comprehensive reports to track project progress and results.
+            </li>
+            <li>
+              Orchestrated daily and weekly team meetings, evaluating
+              performance and efficiency, and implementing necessary adjustments
+              to improve outcomes.
+            </li>
+            <li>
+              Efficiently managed work allocation and ensured effective task
+              management for the team, optimizing workflow and productivity.
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- Work Experience End -->
+    </div>
+  </body>
+</html>
