@@ -1,5 +1,5 @@
 function downloadPDF() {
-  const pdfUrl = "./assets/Prudhvi_CV.pdf";
+  const pdfUrl = "./assets/Prudhvi_FullstackWebDev.pdf";
 
   let link = document.createElement("a");
   link.href = pdfUrl;
